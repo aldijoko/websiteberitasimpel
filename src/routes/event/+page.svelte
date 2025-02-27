@@ -31,7 +31,7 @@
                     <div class="bg-white shadow-md rounded-lg p-4 border-l-4 border-yellow-500">
                         <h3 class="text-lg font-semibold text-gray-900">{event.title}</h3>
                         <p class="text-gray-500">{formatDate(event.start_date)} - {formatDate(event.end_date)}</p>
-                        <a href={`/events/${event.id}`} class="text-blue-500 hover:underline">Lihat Detail</a>
+                        <a href={`/event/${event.id}`} class="text-blue-500 hover:underline">Lihat Detail</a>
                     </div>
                 {/each}
             </div>
@@ -48,7 +48,7 @@
                     <div class="bg-white shadow-md rounded-lg p-4">
                         <h3 class="text-lg font-semibold text-gray-900">{event.title}</h3>
                         <p class="text-gray-500">{formatDate(event.start_date)} - {formatDate(event.end_date)}</p>
-                        <a href={`/events/${event.id}`} class="text-blue-500 hover:underline">Lihat Detail</a>
+                        <a href={`/event/${event.id}`} class="text-blue-500 hover:underline">Lihat Detail</a>
                     </div>
                 {/each}
             </div>
